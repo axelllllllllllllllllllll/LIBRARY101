@@ -1,0 +1,126 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#header{
+    justify-content: center;
+    display: flex;
+}
+nav a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+
+#library-content{
+    padding: 20px;
+}
+
+#banner{
+    padding: auto;
+    display: flex;
+    background-image: url(bglibrary.jpg);
+    justify-content: center;
+}
+
+.banner{
+    padding: 50px;
+    color: antiquewhite;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.ourshelf{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+img{
+    margin-top: 20px;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+#top-liners{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.top-liners-box, .fiction-box, .non-fiction-box, .others-box{
+    background-color: #84c1dd;
+    color: black;
+    flex: 0.5;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#fiction-section, #non-fiction-section, #others-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.fiction-section, .non-fiction-section, .others-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 25px;
+    margin-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer[class]{
+    background-color: #84c1dd;
+    display: flex;
+}
+
+div > h1#aboutus,#contactus{
+    text-align: left;
+    font-size: 40px;
+    margin: 20px;
+}
+
+div > p#aboutus{
+    display: flex;
+    margin: 20px;
+    text-align: justify;
+    font-size: xx-large;
+}
+
+div > .contactus{
+    display: flex;
+}
+
+div > .logos{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+}
